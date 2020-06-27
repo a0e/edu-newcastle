@@ -19,7 +19,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','website'],
+    'depends': ['base','website','survey'],
 
     # always loaded
     'data': [
@@ -28,6 +28,8 @@
         #'views/templates.xml',
         'views/account_inherit.xml',
         'views/homepage.xml',
+        'views/survey_init_inherit.xml',
+        
         
     ],
     # only loaded in demonstration mode
